@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #e0e0e0;
+}
+
+.phone {
+  width: 320px;
+  height: 600px;
+  background: #fff;
+  border: 4px solid #333;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Pantalla interna */
+.phone h1 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.phone button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  transition: background 0.3s, transform 0.2s;
+  width: 100%;
+  max-width: 250px;
+}
+
+.phone button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.phone p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #333;
+  padding: 0 10px;
+  word-wrap: break-word;
+}
